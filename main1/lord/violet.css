@@ -1,0 +1,34 @@
+
+.main{
+    background-color: blue;
+    height: 50vh;
+    width: 100%;
+}
+.detail{
+width: 600px;
+margin: auto;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+}
+.nav input{
+    margin-left: 600px;
+}
+.nav button{
+    height: 24px;
+    width: 100px;
+    margin-left: -5px;
+}
+.master{
+    display: inline;
+    width: 100px;
+    margin-left:40px;
+    margin-left: 50px;
+    color: white;
+    
+}
+
+
+
