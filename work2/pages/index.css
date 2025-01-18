@@ -1,13 +1,56 @@
+body{
+    margin-left: 300px;
+}
 div{
     height: 100px;
-    margin-left: 300px; 
 }
 p{
     margin-left:20px;
+    background-blend-mode: multiply;
 }
 .pic{
     height: 300px;
 }
+p{
+    width: 800px;
+}
+h3 {
+    color:rgb(155, 77, 77);
+
+}
+ul class{
+    background-color: rgb(196, 118, 189);
+}
+li{
+    color: black;
+}
+
+h2{
+    color: rgb(131, 26, 26);
+    border-bottom: 1px solid black;
+}
+ul{
+    width: 800px;
+    height: 100px;
+}
+.prep{
+background-color: rgb(249, 215, 250);
+width: 800px;
+}
+ol{
+    width: 800px;
+}
+
+
+
+
+
+
+
+    
+
+
+
 
 
 
