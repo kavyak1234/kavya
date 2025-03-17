@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    margin: 0px;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.active{
+    background-color: green;
+}
+.sub_nav{
+    padding: 5px 0px;
+}
+.img{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+
+}
+.img h1{
+    padding: 5% 0px;
+    font-size: 5rem;
+}
+.img p{
+    font-size: 2rem;
+}
