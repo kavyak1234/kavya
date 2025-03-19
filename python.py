@@ -493,12 +493,7 @@
 #         print(a,end="")
 #         a+=2
 #     print()
-# a=3
-# for i in range(3):
-#     for j in range(3):
-#         print(a,end="")
-#         a+=3
-#     print()
+
 # a=3
 # for i in range(4):
 #     for j in range(1,a+1):
@@ -507,7 +502,7 @@
 #         else:
 #             print(a-j,end="")   
 #     print()
-
+# 
 
 # a=3
 # for i in range(4):
@@ -584,10 +579,66 @@
 #     print()
 
 
+# A=65
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(A+i),end=" ")
+#     print()
 
-
-
-
+#examble
+#1
+# a=3
+# for i in range(3):
+#     for j in range(i,-1,-1):
+#         print(chr(65+j),end=" ")
+#     print()
+#2
+# a=3
+# for i in range(1,a+1):
+#     for j in range(i,0,-1):
+#         print(j,end="")
+#     print()
+#3
+# a=3
+# b=65
+# for i in range(1,a+1):
+#     for j in range(i):
+#         print(chr(b),end=" ")
+#         b+=1
+#     print()
+#4
+# a=3
+# b=3
+# c=65
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(c),end=" ")
+#         c+=1
+#     print()
+#5
+# a=3
+# b=3
+# for i in range(3):
+#     for j in range(3):
+#         if i==j:
+#             print("*",end=" ")
+# else:
+#     print(j+1,end=" ")
+#     print()
+#6
+# a=5
+# b=["A B C","1 2 3"]
+# for i in range(4):
+#     print(b[i%2])
+#7
+a=4
+pattern-1=['A','B','C']
+pattern-2=['C','B','A']
+for i in range(a):
+    if i%2==0:
+        print("",join(pattern-1))
+else:
+    print(" ",join(pattern-2))
 
 
 
