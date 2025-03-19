@@ -1,0 +1,277 @@
+@media(max-width:1400px){
+   .main-menu > ul > li > a {padding: 14px 12px;font-size: 15px;}
+   .container{max-width: 1200px;}
+   header .form-control{width: auto;}
+   .selling-product .product-hover{height: auto;}
+   .selling-product .product-hover h5{margin-top: 0;}
+   .product-hover a{padding: 10px 15px;}
+   li.cart-area {/*padding-left: 13px;*/}
+   header .form-control{width: 215px;}
+   header .form-group label {padding: 5px 10px;font-size: 12px;}
+  
+}
+
+/* ==========================================================================
+   *Large devices (desktops, 992px and up)*
+   ========================================================================== */
+@media (min-width: 992px) and (max-width:1199px) {
+    
+}
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 1200px and down)*
+   ========================================================================== */
+@media (max-width: 1200px) {
+   h3{font-size: 37px;}
+   #big.owl-theme .owl-prev {left: -350px;top: -20%;}
+   #big.owl-theme .owl-next {right: 30px;top: -20%;}
+   .main-menu > ul > li > a{padding: 14px;}
+   .home-features p{width: 100%;}
+    .banner-wrapper { padding-top: 116px;}
+    .container{max-width: 960px;}
+    .banner-main{padding-top: 0;}
+    .selling-product .product-hover{padding: 15px;}.product-hover h6{font-size: 16px;}
+    .product-hover h6 span{margin: 5px 0;}
+    .product-hover a {
+      padding: 2px 15px;
+      font-size: 11px;
+  }
+  .view-box span {
+   width: 20px;
+   height: 20px;
+   padding: 5px 0;
+   font-size: 12px;
+}
+
+.top-bar p{font-size: 11px;}
+.logo{width: 235px;}
+.main-menu > ul > li > a{font-size: 13px;padding: 14px 5px;}
+.top-bar a.account-btn{font-size: 12px;}
+.top-bar ul li a { padding: 3px 0;font-size: 12px;}
+.banner-wrapper {margin-top: 0; padding-top: 125px;}
+.main-menu > ul > li > a.cart-ico{width: 30px;}
+
+/* NEW CSS CHEMPAKAM */
+li.cart-area{/*margin-right: 13px;*/}
+}
+
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 991px and down)*
+   ========================================================================== */
+@media (max-width: 991px) {
+	.home .woocommerce ul.products[class*="columns-"] li.product, 
+	.home .woocommerce-page ul.products[class*="columns-"] li.product {
+		width: 23% !important;
+		margin:5px !important;
+	}
+   header .container{position: relative;}
+   .container{max-width: 720px;}
+   .blogs-section{padding: 95px ​15px 70px 15px;}
+   footer .footer-block1{padding: 35px 0;}
+   footer .col-md-2:last-child{margin-bottom: 0;}
+    h2 { font-size: 36px !important; line-height: 40px !important;}
+    h3 { font-size: 28px !important; line-height: 36px !important;}
+    .header-wraper { padding: 0px;}
+    .logo { padding: 10px 0;margin: auto;}
+    nav.main-menu { display:none;}
+	.mobile-menu { display:block; background:#000000; position: relative; z-index: 9;}
+	 .menu-icon { display:block; z-index:1;  top: 13px; left:10px; background: transparent;}
+
+  
+	/* .mobile-menu ul.menu-list{display:none;} */
+	.mobile-menu > ul > li > span { display:none;}
+	.mobile-menu > ul.menu-list > li > a.login { color: #fff; display:block; width:100%; font-size: 14px; text-transform: uppercase; padding: 8px 0; background:none; display: inline-block; line-height: normal; position: relative;  top:0px;  border-radius: 0px;}
+    .mobile-menu > ul > li > a.active { color: #fff;}
+    .header-right { margin-right: 50px;}
+    .mobile-menu > ul.menu-list { padding: 10px 0;}
+    .mobile-menu > ul > li > a { font-size: 14px; text-transform: uppercase;}
+    .mobile-menu ul.menu-list > li > ul > li > a { font-size: 14px;}
+    
+    /* Menu Second Level 21-01-2021 */
+    .mobile-menu ul.menu-list > li > ul{padding: 0;}
+    .mobile-menu ul.menu-list > li > ul > li >ul{ display:none; background: #505050; padding: 0;}
+    .mobile-menu ul.menu-list > li > ul > li >ul >li>a{font-size: 14px;}
+    /* Menu Second Level END 21-01-2021 */
+    
+    .mega-drop { padding: 0 15px; position: relative; z-index: 3; left: inherit !important; top: inherit !important; right: inherit !important; bottom: inherit !important; width: 100% !important; display: none;  opacity: 1; transform: scale(1); pointer-events: auto; background: #1b1a1a; border-radius: 0px;}
+    .mobile-menu ul > li > a { font-weight: 400;color: #070606;border-top: 1px solid #0706061f;}
+    .drop-links > li > a { font-size: 14px;}
+    .drop-links li a:before { position: static; display: inline-block; margin-right: 20px;}
+    .mobile-menu ul > li > a > img{display: block;}
+    li.cart-area{padding: 0;}
+    
+    footer .footer-block2 {
+      padding: 30px 0;
+      padding-top: 40px;
+   }
+   .selling-product, .new-arrivals{padding: 35px 0;}
+   .banner-main h4{font-size: 44px;}.banner-main img{width: 465px;}
+   .flex-box-right, .flex-box-left{width: 100%;}
+   .selling-product .product-block img{width: 100%;}
+   .topbar-content{display: block;}
+   .right-topbar { text-align: center;width: 250px;margin: auto;}
+   .browse-products-btn{margin-top: 20px;}
+   .mobile-menu ul > li > a > img{margin: auto;}
+   .product-hover{height: auto;}
+   .banner-main{margin-left: 25px;}
+   header .form-group{width: 323px;margin: auto;}
+   .product-coloumn{display: flex;}.selling-product .product-block{width: 50%;}
+   h3{margin-bottom: 25px;}.product-coloumn{display: block;}.selling-product .product-block{width: 100%;}
+   /* OUR STORY */
+   .why-choose-us-box {padding: 35px 20px;margin-bottom: 15px;}
+   .why-choose-us-box {
+      padding: 35px 20px;
+      margin-bottom: 15px;
+      height: auto;
+  }
+  .why-choose-us , .counter-block, .our-story-section{padding: 35px 0;}
+  .counter-block h4{font-size: 40px;}.counter-block h4 span{font-size: 16px}
+  .story-content{padding: 0;}.our-story-section p{margin-bottom: 15px;}
+
+  /* CONTACT */
+  .get-in-touch,.contact-form form{padding: 0;}
+  .get-in-touch{background-color: #e4b74e;padding: 25px 15px;margin-top: 55px;}.contact-form:after{display: none;}
+  .contact-form{padding: 40px 0;}
+  .get-in-touch h3{margin-top: 15px;}
+  .privacy-policy-content{padding: 35px 15px;}.banner-wrapper.inner-banner h1{font-size: 40px;}
+  .privacy-policy-section h3,.privacy-policy-section p{margin-bottom: 15px;}
+  .product-detail-page h3{margin-top: 20px;}.product-detail-page .row{padding: 25px 0;}
+  .product-detail-page{padding: 35px 0 0;}
+  section.new-arrivals.shop-now-block .product-block img{width: 100%;}
+  section.new-arrivals{padding-bottom: 15px;}
+  .sort:after{width: 100px;}
+  .new-arrivals .product-hover{padding: 25px 15px;}
+  .product-detail-page img{width: 100%;}
+  footer .common-btn{display: block;text-align: center;}
+  footer .form-group{display: block;}
+  /* NEW CSS ON 10-3-2022 */
+  li.cart-area{margin: 0;}
+  ul.cart-area {position: absolute; right: 15px; display: flex; top: -79px;}
+  ul.cart-area  > li{border-top: 0;}
+  .animate__fadeInRight {
+   -webkit-animation-name: fadeInRight;
+   animation-name: fadeInRight;
+}
+.mobile-menu{display: block}
+.menu-active .mobile-menu{z-index: 9;}
+ .mobile-menu ul.menu-list {
+   /* display: none; */
+   position: fixed;
+   width: 0;
+   background: #fff;
+   top: 0;z-index: -1;
+   bottom: 0;transition: 0.5s ease;
+   left: -350px;opacity: 0;
+   padding-top: 75px;
+}.mobile-menu ul.menu-list > li > a{padding: 14px 25px;}
+.menu-active .mobile-menu ul.menu-list{width: 350px;opacity: 1;top: 0;left: 0; z-index: 99;text-transform: uppercase;font-size: 14px;}
+/* .mobile-menu ul > li > a{padding: 0;} */
+/* .menu-active .mobile-menu ul > li > a{padding: 8px 20px;} */
+body.menu-active{transition: 0.5s ease;}
+body.menu-active:after{background: rgba(255, 255, 255, 40%);position: absolute;content: "";top: 0;right: 0;
+   bottom: 0;left: 350px;z-index: 999;transition: 0.5s ease;display: none;}
+
+   .online-shopping h4{display: block;color: #fff;margin:15px 0;}
+   body header .form-control {
+      margin-left: 35px;
+      width: auto;
+  }
+
+}
+
+/* ==========================================================================
+   *Small devices (landscape phones, less than 768px)*
+   ========================================================================== */ 
+@media (max-width: 767px) {
+	.home .woocommerce ul.products[class*="columns-"] li.product, 
+	.home .woocommerce-page ul.products[class*="columns-"] li.product {
+		width: 48% !important;
+		margin:5px !important;
+	}
+  .container{max-width: 540px;}
+  .product-block{margin-bottom: 15px;}
+  .new-arrivals img{width: 100%;}
+  .browse-products-btn{margin-top: 0;}
+
+  /* OUR STORY */
+  .counter-block ul{display: block;}
+  .counter-block li{border: 1px solid rgba(255, 255, 255, 50%) ;margin-bottom: 15px!important; }
+  .sort-box{display: block;}.select-box{margin: 0; margin-top: 10px;}
+  .new-arrivals .select-icons img{width: auto;}.shop-now-block h4{margin-top: 20px;}
+  .shopnow-block-left{padding: 20px 15px;}
+  .sort-box{margin: 0;padding: 15px;}
+
+  /* NEW CSS  */
+  /* .mobile-menu ul.menu-list{top: 168px;} */
+  .menu-active .menu-close {
+   top: -62px;
+   left: 175px;
+}
+.online-shopping h4{display: block;color: #fff;margin:15px 0;font-size: 17px;text-align: center;}
+.online-shopping .owl-stage {
+   /* left: -100px;padding: 20px; */
+}
+
+
+}
+
+
+/* ==========================================================================
+   *Extra small devices (portrait phones, less than 576px)*
+   ========================================================================== */ 
+@media (max-width: 575px) {
+	.home .woocommerce ul.products[class*="columns-"] li.product, 
+	.home .woocommerce-page ul.products[class*="columns-"] li.product {
+		width: 47.5% !important;
+		margin:5px !important;
+	}
+   h3{    font-size: 24px !important;line-height: 31px!important;}
+    h2{font-size: 30px!important;}
+    .container{max-width: 100%;}
+    .logo{width: 220px;}
+    .online-shopping-link{margin-top: 0;}.online-shopping a{margin-top: 20px;}
+    .online-shopping-link{display: block;}
+   .online-shopping .owl-nav{margin-top: 15px;}
+   .inner-banner .banner-main{margin-left: 0;}
+   ul.tabs{display: none;}
+   .product-detail-page h3{font-size: 16px!important;}.tab_content{padding: 0;}
+   .menu-active .mobile-menu ul.menu-list{width: 300px;}
+   body.menu-active:after{left: 300px;}  body.menu-active{transition: 0.5s ease;}
+
+}
+
+@media (max-width: 480px) {
+	.home .woocommerce ul.products[class*="columns-"] li.product, 
+	.home .woocommerce-page ul.products[class*="columns-"] li.product {
+		width: 47% !important;
+		margin:3px !important;
+	}
+   /*==================== NEW CSS CHERMPAKAM =============*/
+   .logo {
+      width: 153px;
+  }
+  .mobile-menu .menu-icon{top: -55px;}ul.cart-area{top: -72px;}
+  .cart-ico .cart-items{font-size: 12px;}
+  .cart-items{width: 18px;height: 18px;}
+  .main-menu li a.cart-ico, .mobile-menu ul>li>a.cart-ico{width: 22px;}
+  .main-menu li a.cart-ico, .mobile-menu ul > li > a.cart-ico{font-size: 25px;}
+  .menu-icon{width: 35px;height: 35px;}
+  .menu-icon span.line {
+   height: 2px;
+   margin: 6px auto;
+}
+.menu-active .menu-close {
+   left: 150px;
+}
+body header .form-control{padding-left: 35px;}header .form-group:before{right: 115px;}
+/* .menu-active .menu-close{top: -110px;} */
+}
+@media (max-width: 414px) {
+   .menu-active .menu-close{top: -90px;}
+   .online-shopping .owl-stage {
+      left: -50px;
+   }
+}
