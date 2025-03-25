@@ -183,8 +183,16 @@
 # print(t)
 # print(type(t))
 
-t=(1,2,3)
-l=list(t)
-l.append(4)
-t=tuple(l)
-print(t)
+# t=(1,2,3)
+# l=list(t)
+# l.append(4)
+# t=tuple(l)
+# print(t)
+
+
+l=[]
+a=int(input("starting"))
+b=int(input("ending"))
+for i in range(a,b+1):
+    l.append(i)
+print(l)
