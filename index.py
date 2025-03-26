@@ -189,10 +189,129 @@
 # t=tuple(l)
 # print(t)
 
+#exercise
 
-l=[]
-a=int(input("starting"))
-b=int(input("ending"))
-for i in range(a,b+1):
-    l.append(i)
-print(l)
+#1 l=[]
+# a=int(input("starting"))
+# b=int(input("ending"))
+# for i in range(a,b+1):
+#     l.append(i)
+# print(l)
+#2
+# l=[]
+# a=int(input("starting"))
+# b=int(input("ending"))
+# for i in range(a,b+1):
+#     if i%2==0:
+#         l.append(i)
+# print(l)
+
+#3
+# l=[1,2,2,3,4,4,4,5,6]
+# for i in l:
+#     if i%2==1:
+#         print(i)
+#4
+# sum1=0
+# sum2=0
+# sum3=0
+# l=[1,2,2,3,4,4,4,5,6]
+# for i in l:
+#     if i%2==0:
+#         sum1+=i
+#     else:
+#         sum2+=i
+#     sum3+=i
+# print(sum1,sum2,sum3)
+
+# l=['python','java','php']
+# for i in l:
+#     rev=''
+#     for j in i:
+#         rev=j+rev
+#     print(rev)
+#5
+# l=['apple','mango','kivi']
+# a=input("enter a letter:")
+# for i in l:
+#     if a in i:
+#         print(i)
+
+
+#set(duplicate values removed)
+# s={1,2,3,4,5,6,2,3,}
+# print(s)
+
+# s={"hello"}
+# print(s)
+
+# s={20,21,45,678,8,90,4,5}
+# print(s)
+
+# s={1,2,3,4,[2,3]}
+# print(s)
+
+# s={1,2,3,4}
+# for i in s:
+#     print(i)
+
+# s={1,2,3,4}
+# if 4 in s:
+#     print('yes')
+
+# else:
+#     print('no')
+
+
+
+# s={1,2,3,4,5}
+# print(s)
+# s.add(10)
+# s.add('6')
+# s.remove(13)
+# s.discard(12)
+# print(s)
+
+# print(s.difference({3,4,5,6,7}))
+# print(s.intersection({3,4,5,6,7}))
+# print(s.union({3,4,5,6,7}))
+# print(s.isdisjoint({6,7}))
+# print(s.issubset({1,2,3,4,5,6,7}))
+# print(s.issuperset({1,2,3}))
+# s.pop()
+# print(s)
+
+# s.intersection_update({3,4,5,6,7,1})
+# print(s)
+# print(s.symmetric_difference({2,3,4,6,7,8}))
+
+#set examble1
+# s=set()
+# a=int(input( 'enter a number'))
+# for i in range(0,a):
+#     b=input('enter a name')
+#     s.add(b)
+#     print(s)
+
+
+#set examble2
+# python=set()
+# php=set()
+# java=()
+# a=int(input("enter how many numbers in python"))
+# for i in range(0,a):
+#     b=input("enter python students name")
+#     python.add(b)
+# c=int(input("how many students in php"))
+# for i in range(0,c):
+#     d=input("enter php students name")
+#     php.add(d)
+# e=int(input("how many students in java"))
+# for i in range(0,e):
+#     f=input("enter java students name ")
+#     java.add(f)
+# print("python",python)
+# print("php",php)
+# print("java",java)
+    
+    
