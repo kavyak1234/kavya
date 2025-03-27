@@ -295,7 +295,7 @@
 
 
 #set examble2
-# python=set()
+# python=set(1)
 # php=set()
 # java=()
 # a=int(input("enter how many numbers in python"))
@@ -314,4 +314,63 @@
 # print("php",php)
 # print("java",java)
     
-    
+# python=set(2)
+# python=set()
+# php=set()
+# java=set()
+# a=int(input("enter how many numbers in python"))
+# for i in range(0,a):
+#     b=input("enter python students name")
+#     python.add(b)
+# c=int(input("how many students in php"))
+# for j in range(0,c):
+#     d=input("enter php students name")
+#     php.add(d)
+# e=int(input("how many students in java"))
+# for k in range(0,e):
+#     f=input("enter java students name ")
+#     java.add(f)
+# print("python",python)
+# print("php",php)
+# print("java",java)
+# g=python.intersection(php).intersection(java)
+# print(g)
+# h=python.difference(php).difference(java)
+# print(h,"std only in python")
+# i=php.difference(python).difference(java)
+# print(i,"std only in php")
+# j=java.difference(python).difference(php)
+# print(j,"std only in java")
+# print(h.union(i).union(j))
+
+
+# d={}
+# d={'name':'amal','age':22,'place':'ekm','english':55,}
+# print(d['name'])
+# d['name']='manu'
+# d['phone']=7034064303
+# print(d['name'])
+# print(d['phone'])
+# print(d)
+# if d['name']=='amal':
+#     print('yes')
+# else:
+#     print('no')
+
+# d={}
+# d={'name':'amal','age':22,'place':'ekm','english':55,}
+# print(d['name'])
+# d['name']='manu'
+# d['phone']=7034064303
+# print(d['name'])
+# print(d['phone'])
+# print(d)
+# if d['name']=='amal':
+#     print('yes')
+# else:
+#     print('no')
+# for i in d:
+#     print(i,d[i])
+
+a=int(input('enter name'))
+b=int(input('roll no'))
