@@ -372,5 +372,59 @@
 # for i in d:
 #     print(i,d[i])
 
-a=int(input('enter name'))
-b=int(input('roll no'))
+# d={}
+# a=input('enter a name')
+# b=int(input('enter a roll no'))
+# c=int(input('enter a age'))
+# d['name']=a
+# d['roll no']=b
+# d['age']=c
+# print(d)
+
+
+#dictionary methods
+# d={'name':'kavya','age':21}
+# print(d.get('name'))
+# print(d.items())
+# print(d.keys())
+# print(d.values())
+# d.pop('name')
+# print(d)
+# d.popitem()
+# print(d)
+# d.update({'name':'kavya'})
+# print(d)
+# d.setdefault('name1')
+# print(d)
+# l=['mark1','mark2']
+# print(d.fromkeys(l))
+
+
+# l=[]
+# a=int(input('number of students'))
+# for i in range(0,a):
+#     b=input('enter a name')
+#     d=int(input('enter a age'))
+#     c=int(input('enter a roll no'))
+#     l.append({'name':b,'age':d,'roll no':c})
+#     # l.append(d)
+# print(l)
+
+# for i in l:
+#     print(i)
+
+
+l=[]
+a=int(input('number of students'))
+for i in range(0,a):
+    b=input('enter a name')
+    d=int(input('enter a age'))
+    c=int(input('enter a roll no'))
+    l.append({'name':b,'age':d,'roll no':c})
+    
+print(l)
+
+for i in l:
+    print(i)
+
+
