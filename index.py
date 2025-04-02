@@ -429,7 +429,82 @@
 
 
 #programme runnig
-student=[]
+# student=[]
+# while True:
+#     print("""
+# 1.Register
+# 2.View
+# 3.Update
+# 4.Delete
+# 5.Search
+# 6.exit""")
+#     ch=int(input("Enter your choice"))
+#     if ch==1:
+#         if len(student)==0:
+#             adm=1
+#         else:
+#             adm=student[-1]['adm_no']+1
+#         name=input("Enter name:")
+#         age=int(input("Enter age:"))
+#         cur=input("Enter course:")
+#         fee=int(input("Enter fee:"))
+#         student.append({"adm_no":adm,"name":name,"age":age,"course":cur,"fee":fee})
+#     elif ch==2:
+#         print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format('adm_no','name','age','course','fee'))#for formating the output to a table structure
+#         print('-'*70)
+#         print(std)
+#         for std in student:
+#             print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format(std['adm_no'],std['name'],std['age'],std['course'],std['fee']))#for formating the output to a table structure
+#     elif ch==3:
+#         adm=int(input("Enter adm no:"))
+#         f=0
+#         for std in student:
+#             print(std['adm_no'])
+#             if std['adm_no']==adm:
+#                 print("std",std)
+#                 f=1
+#                 newfee=int(input("enter new fee:"))
+#                 std['fee']=newfee
+#                 print("fee updated")
+#         if f==0:
+#             print("no record found")
+        
+    
+    
+#     elif ch==4:
+#         adm=int(input("enter adm_no:"))
+#         f=0
+#         for std in student:
+#             if std['adm_no']==adm:
+#                 f=1
+#                 student.remove(std)
+#                 print("record deleted")
+#             if f==0:
+#                 print("no record found")
+        
+#     elif ch==5:
+#         adm=int(input("Enter adm no:"))
+#         f=0
+#         for std in student:
+#             print(std['adm_no'])
+#             if std['adm_no']==adm:
+#                 print("std",std)
+#                 f=1
+#                 newfee=int(input("enter new fee:"))
+#                 std['fee']=newfee
+#                 print("fee updated")
+#         if f==0:
+#             print("no record found")
+#             print("search")
+        
+#     elif ch==6:
+#         print('exit')
+#         break
+#     else:
+#         print("invalied choice")
+
+
+employ=[]
 while True:
     print("""
 1.Register
@@ -440,29 +515,65 @@ while True:
 6.exit""")
     ch=int(input("Enter your choice"))
     if ch==1:
-        if len(student)==0:
-            adm=1
+        if len(employ)==0:
+            emp=1
         else:
-            adm=student[-1]['adm_no']+1
+            emp=employ[-1]['emp_id']+1
         name=input("Enter name:")
         age=int(input("Enter age:"))
-        cur=input("Enter course:")
-        fee=int(input("Enter fee:"))
-        student.append({"adm_no":adm,"name":name,"age":age,"course":cur,"fee":fee})
+        pos=input("Enter position:")
+        salary=int(input("Enter salary:"))
+        employ.append({"emp_id":emp,"name":name,"age":age,"position":pos,"salary":salary})
     elif ch==2:
-        print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format('adm_no','name','age','course','fee'))#for formating the output to a table structure
+        print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format('emp_id','name','age','position','salary'))#for formating the output to a table structure
         print('-'*70)
-        for std in student:
-            print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format(std['adm_no'],std['name'],std['age'],std['course'],std['fee']))#for formating the output to a table structure
+        for std in employ:
+            print('{:<10}{:<20}{:<10}{:<20}{:<10}' .format(std['emp_id'],std['name'],std['age'],std['position'],std['salary']))#for formating the output to a table structure
 
-        
-    elif ch==2:
-        print(student)
     elif ch==3:
-        print("Update")
+           adm=int(input("Enter emp_id:"))
+    f=0
+    for std in employ:
+            print(std['emp_id'])
+            if std['emp_id']==emp:
+                print("std",std)
+                f=1
+                newsalary=int(input("enter new salary:"))
+                std['salary']=newsalary
+                print("salary updated")
+    if f==0:
+            print("no record found")
+        
+    
+ 
+        
     elif ch==4:
+        adm=int(input("enter emp_id:"))
+        f=0
+        for std in employ:
+            if std['emp_id']==emp:
+                f=1
+                employ.remove(std)
+                print("record deleted")
+            if f==0:
+                print("no record found")
+        
         print("Delete")
     elif ch==5:
+        adm=int(input("Enter emp_id:"))
+        f=0
+        for std in employ:
+            print(std['emp_id'])
+            if std['emp_id']==emp:
+                print("std",std)
+                f=1
+                newsalary=int(input("enter new salary:"))
+                std['salary']=newsalary
+                print("fee updated")
+        if f==0:
+            print("no record found")
+            print("search")
+        
         print("search")
     elif ch==6:
         print('exit')
