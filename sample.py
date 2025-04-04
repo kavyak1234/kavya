@@ -22,3 +22,6 @@ a="               kdjfek                 "
 print(a.strip())
 print(a.lstrip())
 print(a.rstrip())
+
+
+a=input('enterbook_id,bookname,author')
