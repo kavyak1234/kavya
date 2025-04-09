@@ -1,3 +1,4 @@
+#string methods
 a="welcome"
 print(a.capitalize())
 print(a.isupper())
